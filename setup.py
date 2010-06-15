@@ -25,7 +25,7 @@ from setuptools import setup
 
 setup(
     name='TwitterLog',
-    version='0.6',
+    version='0.6.1',
     url='http://github.com/mitsuhiko/twitterlog',
     license='BSD',
     author='Armin Ronacher',
