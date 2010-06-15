@@ -1,0 +1,14 @@
+TwitterLog
+``````````
+
+Implements a log handler that can log to a Twitter stream.
+
+Usage:
+
+    import logging
+    from twitterlog import TwitterHandler
+
+    twitter = TwitterHandler('username', 'password')
+    twitter.setLevel(logging.ERROR)
+    logger = logging.getLogger('yourlogger')
+    logger.addHandler(twitter)
