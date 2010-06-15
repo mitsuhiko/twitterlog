@@ -1,4 +1,13 @@
 # -*- coding: utf-8 -*-
+"""
+    twitterlog
+    ~~~~~~~~~~
+
+    Implements a log handler that can log to a Twitter stream.
+
+    :copyright: (c) 2010 by Armin Ronacher.
+    :license: BSD, see LICENSE for more details.
+"""
 import re
 import oauth2
 import traceback
